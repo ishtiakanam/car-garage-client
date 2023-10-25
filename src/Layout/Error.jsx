@@ -1,9 +1,10 @@
-// import error from '../assets/images/checkout'
+import Navbar from '../Pages/Navbar/Navbar'
+import error from '../assets/images/404/download.png'
 const Error = () => {
     return (
         <div>
-            <h2>This is not the page you are finding.</h2>
-            {/* <img src={error} alt="" /> */}
+            <Navbar />
+            <img className='flex items-center justify-center w-full mx-auto h-[50vh]' src={error} alt="" />
         </div>
     )
 }
